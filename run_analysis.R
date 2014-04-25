@@ -81,3 +81,8 @@ for (l in 1:6) {
 
 # Clean up
 rm(i, j, l, temp, comb_melt, labels)
+
+# Write to files
+write.table(avg_df, "means_vs_actSub.txt")
+write.table(combined, "combined.txt")
+write.table(mean_STD_comb, "mean_STD_comb.txt")

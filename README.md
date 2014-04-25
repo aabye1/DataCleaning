@@ -29,3 +29,4 @@ Assumptions: Working directory contains the unzipped data folder containing UCI 
 11. Rename the columns to lower case and no special characters
 12. Dcast the data frame with means as element, (activity, subject)-pair as column title and the measure as row title.
 13. Change the activity number to activity name.
+14. Write outputs to files
